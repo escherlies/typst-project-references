@@ -36,7 +36,7 @@ This is a Typst template designed for creating professional reference documents,
 
 To set the default language for the Typst LSP in your workspace, add the following configuration to your workspace settings (e.g., `.vscode/settings.json` in VS Code):
 
-```json
+```jsonc
 {
   "tinymist.typstExtraArgs": [
     "--input",
