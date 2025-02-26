@@ -1,5 +1,5 @@
 build lang:
-  typst compile --input lang={{lang}} main.typ References_{{lang}}.png
+  typst compile --input lang={{lang}} main.typ References_{{lang}}.pdf
 
 # Init projects.yaml if non-existent
 init:
