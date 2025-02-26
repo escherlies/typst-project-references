@@ -10,7 +10,7 @@
 // #let pageCount = box(rect("0" + (context counter(page).get().first()) ,radius: 100pt, inset: 4pt), baseline: 28%)
 // #let footer = upper[Binary Please #h(1fr) Page #pageCount]
 #set page(fill: bg-color, footer-descent: 12pt)
-#set text(font: "Space Mono", size: 9pt)
+#set text(font: "Hack", size: 9pt)
 #show link: underline
 
 #let fromCli = sys.inputs.lang

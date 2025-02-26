@@ -24,8 +24,6 @@
 
   set page(fill: bg-color, footer: footer, footer-descent: 12pt)
 
-  set text(font: "Space Mono", size: 9pt)
-
   let filler = image("filler.svg", height: 15pt)
 
   let description = context {
