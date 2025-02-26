@@ -1,10 +1,20 @@
 # References Typst Template
 
+<a href="./images/sample.pdf">
+  <p align="center">
+  <img src="./images/en_1.svg" width="40%"/>
+  <img src="./images/en_2.svg" width="40%"/> 
+  </p>
+</a>
 
 <p align="center">
-<img src="./images/en_1.svg" width="40%"/>
-<img src="./images/en_2.svg" width="40%"/> 
+  <a href="./images/sample.pdf">
+  Example PDF
+  </a>
 </p>
+
+---
+
 
 
 This is a Typst template designed for creating professional reference documents, particularly useful for tender applications.

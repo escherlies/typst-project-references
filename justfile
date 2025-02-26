@@ -7,3 +7,4 @@ init:
 
 build-readme:
   typst compile --format svg --input lang=en main.typ images/en_{p}.svg
+  typst compile --input lang=en main.typ images/sample.pdf
