@@ -1,0 +1,20 @@
+[conf]
+default-lang = "en"
+
+[lang.en]
+customer = "Customer"
+description = "Description"
+languages = "Languages"
+project = "Project"
+references = "References"
+tech_stack = "Tech Stack"
+website = "Website"
+
+[lang.de]
+customer = "Kunde"
+description = "Beschreibung"
+languages = "Sprachen"
+project = "Projekt"
+references = "Referenzen"
+tech_stack = "Tech Stack"
+website = "Webseite"

@@ -1,0 +1,46 @@
+hyhyve:
+  name: HyHyve
+  customer: Binary Please
+  website: https://www.hyhyve.com/
+  description:
+    en: |
+      The HyHyve project, developed entirely in-house as our flagship product, is a real-time multiplayer web application with a modern and scalable architecture.
+
+      The frontend is built entirely in Elm, providing a robust and maintainable user interface. The core game engine, written from scratch in TypeScript, ensures smooth gameplay and interaction. Additionally, the system features extensive Elm FFI via custom components for seamless integration with external functionalities. Styling is handled with Tailwind CSS.
+
+      The backend runs on a Fastify-based API using TypeScript and Node.js (Bun.sh) for high-performance execution. Data is stored in MongoDB, validated with Zod, and synchronized in real time using Redis. A NATS-based microservice architecture ensures efficient messaging and event-driven communication.
+
+      The system and deployment are managed on a dedicated server running NixOS, with custom Nix modules for declarative system configuration. The infrastructure is containerized using Docker, orchestrated with Docker Compose, and automated via Docker CI and GitHub Workflows. AWS S3 is used for file storage, while Stripe handles payment processing.
+
+      This architecture leverages NixOS for stability and maintainability, ensuring a scalable, high-performance system optimized for real-time interactions.
+    de: |
+      Das HyHyve-Projekt, das vollständig intern als unser Flaggschiffprodukt entwickelt wurde, ist eine Echtzeit-Mehrspieler-Webanwendung mit einer modernen und skalierbaren Architektur.
+
+      Das Frontend ist vollständig in Elm geschrieben und bietet eine robuste und wartungsfreundliche Benutzeroberfläche. Die Kern-Game-Engine, die von Grund auf in TypeScript geschrieben wurde, sorgt für ein reibungsloses Gameplay und Interaktion. Zusätzlich verfügt das System über umfangreiche Elm FFI über benutzerdefinierte Komponenten für die nahtlose Integration mit externen Funktionalitäten. Das Styling wird mit Tailwind CSS realisiert.
+
+      Das Backend läuft auf einer Fastify-basierten API unter Verwendung von TypeScript und Node.js (Bun.sh) für eine hochperformante Ausführung. Die Daten werden in MongoDB gespeichert, mit Zod validiert und in Echtzeit mit Redis synchronisiert. Eine NATS-basierte Microservice-Architektur gewährleistet eine effiziente Nachrichtenübermittlung und ereignisgesteuerte Kommunikation.
+
+      Das System und die Bereitstellung werden auf einem dedizierten Server verwaltet, auf dem NixOS ausgeführt wird, mit benutzerdefinierten Nix-Modulen für die deklarative Systemkonfiguration. Die Infrastruktur ist mit Docker containerisiert, wird mit Docker Compose orchestriert und über Docker CI und GitHub Workflows automatisiert. AWS S3 wird für die Dateispeicherung verwendet, während Stripe die Zahlungsabwicklung übernimmt.
+
+      Diese Architektur nutzt NixOS für Stabilität und Wartungsfreundlichkeit und gewährleistet so ein skalierbares, hochleistungsfähiges System, das für Echtzeit-Interaktionen optimiert ist.
+  techs:
+    - Aws.s3
+    - Bash
+    - Docker
+    - Eslint
+    - Express
+    - Fastify
+    - Mongodb
+    - Nats
+    - Nodejs/bun.sh
+    - Redis
+    - Stripe
+    - TailwindCSS
+    - Typescript
+    - NixOS
+    - Docker, Docker Compose, GitHub Workflows, Justfile/Makefile
+  langs:
+    - Elm
+    - Nix
+    - Shell
+    - TypeScript
